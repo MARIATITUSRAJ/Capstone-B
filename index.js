@@ -22,7 +22,7 @@ app.use(express.static('Public'))
 app.use(cors({
     methods: ['GET', 'POST', 'PUT', "DELETE"],
     credentials: true,
-    origin: "http://localhost:5173", 
+    origin: "https://hrmanagementsystemversion.netlify.app/", 
 }));
 
 
