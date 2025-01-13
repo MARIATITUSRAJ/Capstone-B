@@ -41,7 +41,7 @@ const { TrainingMaterial } = require("../models/user");
 router.use(
     cors({
         credentials: true,
-        origin: "https://hrmanagementsystemversion.netlify.app/",
+        origin: "https://hrmanagementsystemversion.netlify.app",
     })
 );
 

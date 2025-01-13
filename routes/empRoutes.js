@@ -30,7 +30,7 @@ const { empModule } = require("../models/user");
 router.use(
     cors({
         credentials: true,
-        origin: "https://hrmanagementsystemversion.netlify.app/",
+        origin: "https://hrmanagementsystemversion.netlify.app",
     })
 );
 router.post("/employee/employee_login", emplogin);
